@@ -1,0 +1,168 @@
+193:143  0:489  Found BIOS RSDP at FCC70
+193:143  0:000  Printing ACPI tables from RSDP FCC70 ...
+193:143  0:000   FCC70: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+193:143  0:000    (Xsdt: A23F80A8, Rsdt: A23F8028)
+193:143  0:000    A23F80A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+193:143  0:000    A23F8028: 'RSDT', 'A M I', Rev: 1, Len: 120
+193:143  0:000    Tables in Xsdt: 21
+193:143  0:000    0. A2420DC8: 'FACP', 'A M I', Rev: 6, Len: 276
+193:143  0:000        (Dsdt: A23F8210, Facs: B2D1AC40, XDsdt: A23F8210, XFacs: 0)
+193:143  0:000        A23F8210: 'DSDT', 'A M I', Rev: 2, Len: 166834
+193:145  0:002        B2D1AC40: 'FACS', Ver: 2, Len: 64
+193:145  0:000    1. A2420EE0: 'APIC', 'A M I', Rev: 3, Len: 132
+193:145  0:000    2. A2420F68: 'FPDT', 'A M I', Rev: 1, Len: 68
+193:145  0:000    3. A242C6F8: 'ASF!', ' HCG', Rev: 32, Len: 160
+193:145  0:000    4. A2421008: 'MCFG', 'A M I', Rev: 1, Len: 60
+193:145  0:000    5. A2421048: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+193:145  0:000    6. A24213D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+193:145  0:000    7. A2421478: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+193:145  0:000    8. A24244C0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+193:145  0:000    9. A2426A08: 'HPET', 'SKL', Rev: 1, Len: 56
+193:145  0:000    10. A2426A40: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+193:145  0:000    11. A2427880: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2843
+193:145  0:000    12. A24283A0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+193:145  0:000    13. A24283E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+193:145  0:000    14. A24292C8: 'LPIT', 'SKL', Rev: 1, Len: 148
+193:145  0:000    15. A2429360: 'WSMT', 'SKL', Rev: 1, Len: 40
+193:145  0:000    16. A2429388: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+193:145  0:000    17. A2429628: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+193:145  0:000    18. A242C630: 'DBGP', '', Rev: 1, Len: 52
+193:145  0:000    19. A242C668: 'DBG2', '', Rev: 0, Len: 84
+193:145  0:000    20. A242C6C0: 'BGRT', 'A M I', Rev: 1, Len: 56
+193:145  0:000    Tables in Rsdt: 21
+193:145  0:000    0. A23F8188: 'FACP', 'A M I', Rev: 2, Len: 132
+193:145  0:000        (Dsdt: A23F8210, Facs: B2D1AC00)
+193:145  0:000        A23F8210: 'DSDT', 'A M I', Rev: 2, Len: 166834
+193:148  0:002        B2D1AC00: 'FACS', Ver: 0, Len: 64
+193:148  0:000    1. A2420EE0: 'APIC', 'A M I', Rev: 3, Len: 132
+193:148  0:000    2. A2420F68: 'FPDT', 'A M I', Rev: 1, Len: 68
+193:148  0:000    3. A242C6F8: 'ASF!', ' HCG', Rev: 32, Len: 160
+193:148  0:000    4. A2421008: 'MCFG', 'A M I', Rev: 1, Len: 60
+193:148  0:000    5. A2421048: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+193:148  0:000    6. A24213D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+193:148  0:000    7. A2421478: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+193:148  0:000    8. A24244C0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+193:148  0:000    9. A2426A08: 'HPET', 'SKL', Rev: 1, Len: 56
+193:148  0:000    10. A2426A40: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+193:148  0:000    11. A2427880: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2843
+193:148  0:000    12. A24283A0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+193:148  0:000    13. A24283E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+193:148  0:000    14. A24292C8: 'LPIT', 'SKL', Rev: 1, Len: 148
+193:148  0:000    15. A2429360: 'WSMT', 'SKL', Rev: 1, Len: 40
+193:148  0:000    16. A2429388: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+193:148  0:000    17. A2429628: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+193:148  0:000    18. A242C630: 'DBGP', '', Rev: 1, Len: 52
+193:148  0:000    19. A242C668: 'DBG2', '', Rev: 0, Len: 84
+193:148  0:000    20. A242C6C0: 'BGRT', 'A M I', Rev: 1, Len: 56
+193:148  0:000  Found UEFI Acpi 2.0 RSDP at A23F8000
+193:148  0:000  Saving ACPI tables from RSDP A23F8000 to EFI\CLOVER\ACPI\origin ...
+193:148  0:000   A23F8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+193:148  0:000    (Xsdt: A23F80A8, Rsdt: A23F8028)
+193:148  0:000    A23F80A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+193:148  0:000    A23F8028: 'RSDT', 'A M I', Rev: 1, Len: 120
+193:148  0:000    Tables in Xsdt: 21
+193:148  0:000    0. A2420DC8: 'FACP', 'A M I', Rev: 6, Len: 276
+193:148  0:000        (Dsdt: A23F8210, Facs: B2D1AC40, XDsdt: A23F8210, XFacs: 0)
+193:148  0:000        A23F8210: 'DSDT', 'A M I', Rev: 2, Len: 166834
+193:150  0:002        B2D1AC40: 'FACS', Ver: 2, Len: 64
+193:150  0:000    1. A2420EE0: 'APIC', 'A M I', Rev: 3, Len: 132
+193:150  0:000    2. A2420F68: 'FPDT', 'A M I', Rev: 1, Len: 68
+193:150  0:000    3. A242C6F8: 'ASF!', ' HCG', Rev: 32, Len: 160
+193:150  0:000    4. A2421008: 'MCFG', 'A M I', Rev: 1, Len: 60
+193:150  0:000    5. A2421048: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+193:150  0:000    6. A24213D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+193:150  0:000    7. A2421478: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+193:150  0:000    8. A24244C0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+193:150  0:000    9. A2426A08: 'HPET', 'SKL', Rev: 1, Len: 56
+193:150  0:000    10. A2426A40: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+193:150  0:000    11. A2427880: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2843
+193:150  0:000    12. A24283A0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+193:150  0:000    13. A24283E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+193:150  0:000    14. A24292C8: 'LPIT', 'SKL', Rev: 1, Len: 148
+193:150  0:000    15. A2429360: 'WSMT', 'SKL', Rev: 1, Len: 40
+193:150  0:000    16. A2429388: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+193:150  0:000    17. A2429628: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+193:150  0:000    18. A242C630: 'DBGP', '', Rev: 1, Len: 52
+193:150  0:000    19. A242C668: 'DBG2', '', Rev: 0, Len: 84
+193:150  0:000    20. A242C6C0: 'BGRT', 'A M I', Rev: 1, Len: 56
+193:150  0:000    Tables in Rsdt: 21
+193:150  0:000    0. A23F8188: 'FACP', 'A M I', Rev: 2, Len: 132
+193:150  0:000        (Dsdt: A23F8210, Facs: B2D1AC00)
+193:150  0:000        A23F8210: 'DSDT', 'A M I', Rev: 2, Len: 166834
+193:153  0:002        B2D1AC00: 'FACS', Ver: 0, Len: 64
+193:153  0:000    1. A2420EE0: 'APIC', 'A M I', Rev: 3, Len: 132
+193:153  0:000    2. A2420F68: 'FPDT', 'A M I', Rev: 1, Len: 68
+193:153  0:000    3. A242C6F8: 'ASF!', ' HCG', Rev: 32, Len: 160
+193:153  0:000    4. A2421008: 'MCFG', 'A M I', Rev: 1, Len: 60
+193:153  0:000    5. A2421048: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+193:153  0:000    6. A24213D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+193:153  0:000    7. A2421478: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+193:153  0:000    8. A24244C0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+193:153  0:000    9. A2426A08: 'HPET', 'SKL', Rev: 1, Len: 56
+193:153  0:000    10. A2426A40: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+193:153  0:000    11. A2427880: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2843
+193:153  0:000    12. A24283A0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+193:153  0:000    13. A24283E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+193:153  0:000    14. A24292C8: 'LPIT', 'SKL', Rev: 1, Len: 148
+193:153  0:000    15. A2429360: 'WSMT', 'SKL', Rev: 1, Len: 40
+193:153  0:000    16. A2429388: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+193:153  0:000    17. A2429628: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+193:153  0:000    18. A242C630: 'DBGP', '', Rev: 1, Len: 52
+193:153  0:000    19. A242C668: 'DBG2', '', Rev: 0, Len: 84
+193:153  0:000    20. A242C6C0: 'BGRT', 'A M I', Rev: 1, Len: 56
+193:153  0:000  Found UEFI Acpi 1.0 RSDP at A23F8000
+193:153  0:000  Printing ACPI tables from RSDP A23F8000 ...
+193:153  0:000   A23F8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+193:153  0:000    (Xsdt: A23F80A8, Rsdt: A23F8028)
+193:153  0:000    A23F80A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+193:153  0:000    A23F8028: 'RSDT', 'A M I', Rev: 1, Len: 120
+193:153  0:000    Tables in Xsdt: 21
+193:153  0:000    0. A2420DC8: 'FACP', 'A M I', Rev: 6, Len: 276
+193:153  0:000        (Dsdt: A23F8210, Facs: B2D1AC40, XDsdt: A23F8210, XFacs: 0)
+193:153  0:000        A23F8210: 'DSDT', 'A M I', Rev: 2, Len: 166834
+193:155  0:002        B2D1AC40: 'FACS', Ver: 2, Len: 64
+193:155  0:000    1. A2420EE0: 'APIC', 'A M I', Rev: 3, Len: 132
+193:155  0:000    2. A2420F68: 'FPDT', 'A M I', Rev: 1, Len: 68
+193:155  0:000    3. A242C6F8: 'ASF!', ' HCG', Rev: 32, Len: 160
+193:155  0:000    4. A2421008: 'MCFG', 'A M I', Rev: 1, Len: 60
+193:155  0:000    5. A2421048: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+193:155  0:000    6. A24213D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+193:155  0:000    7. A2421478: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+193:155  0:000    8. A24244C0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+193:155  0:000    9. A2426A08: 'HPET', 'SKL', Rev: 1, Len: 56
+193:155  0:000    10. A2426A40: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+193:155  0:000    11. A2427880: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2843
+193:155  0:000    12. A24283A0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+193:155  0:000    13. A24283E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+193:155  0:000    14. A24292C8: 'LPIT', 'SKL', Rev: 1, Len: 148
+193:155  0:000    15. A2429360: 'WSMT', 'SKL', Rev: 1, Len: 40
+193:155  0:000    16. A2429388: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+193:155  0:000    17. A2429628: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+193:155  0:000    18. A242C630: 'DBGP', '', Rev: 1, Len: 52
+193:155  0:000    19. A242C668: 'DBG2', '', Rev: 0, Len: 84
+193:155  0:000    20. A242C6C0: 'BGRT', 'A M I', Rev: 1, Len: 56
+193:155  0:000    Tables in Rsdt: 21
+193:155  0:000    0. A23F8188: 'FACP', 'A M I', Rev: 2, Len: 132
+193:155  0:000        (Dsdt: A23F8210, Facs: B2D1AC00)
+193:155  0:000        A23F8210: 'DSDT', 'A M I', Rev: 2, Len: 166834
+193:158  0:002        B2D1AC00: 'FACS', Ver: 0, Len: 64
+193:158  0:000    1. A2420EE0: 'APIC', 'A M I', Rev: 3, Len: 132
+193:158  0:000    2. A2420F68: 'FPDT', 'A M I', Rev: 1, Len: 68
+193:158  0:000    3. A242C6F8: 'ASF!', ' HCG', Rev: 32, Len: 160
+193:158  0:000    4. A2421008: 'MCFG', 'A M I', Rev: 1, Len: 60
+193:158  0:000    5. A2421048: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+193:158  0:000    6. A24213D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+193:158  0:000    7. A2421478: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+193:158  0:000    8. A24244C0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+193:158  0:000    9. A2426A08: 'HPET', 'SKL', Rev: 1, Len: 56
+193:158  0:000    10. A2426A40: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+193:158  0:000    11. A2427880: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2843
+193:158  0:000    12. A24283A0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+193:158  0:000    13. A24283E8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+193:158  0:000    14. A24292C8: 'LPIT', 'SKL', Rev: 1, Len: 148
+193:158  0:000    15. A2429360: 'WSMT', 'SKL', Rev: 1, Len: 40
+193:158  0:000    16. A2429388: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+193:158  0:000    17. A2429628: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+193:158  0:000    18. A242C630: 'DBGP', '', Rev: 1, Len: 52
+193:158  0:000    19. A242C668: 'DBG2', '', Rev: 0, Len: 84
+193:158  0:000    20. A242C6C0: 'BGRT', 'A M I', Rev: 1, Len: 56
