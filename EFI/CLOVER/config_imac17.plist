@@ -257,7 +257,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall debug=0x100 keepsyms=1</string>
+		<string>-lilubetaall debug=0x100 -disablegfxfirmware keepsyms=1</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>DefaultVolume</key>
@@ -356,7 +356,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>msi</string>
+		<string>Catalina</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -474,7 +474,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelSKLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelSKLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -490,7 +490,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelKBLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelKBLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -500,13 +500,13 @@
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Name</key>
-				<string>AppleIntelKBLGraphicsFramebuffer﻿﻿</string>
+				<string>AppleIntelKBLGraph﻿icsFramebuffer﻿﻿﻿</string>
 				<key>Replace</key>
 				<data>60ZI/wU=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -522,7 +522,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>DVMT for AppleIntelCFLGraphicsFramebuffer (Credits DalianSky) for 10.14.x</string>
+				<string>DVMT for AppleIntelCFLGraphicsFramebuffer﻿ (Credits DalianSky) for 10.14.x</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
@@ -696,29 +696,29 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP133.88Z.F000.B00.1910301814</string>
+		<string>IM171.88Z.F000.B00.1910301919</string>
 		<key>Board-ID</key>
-		<string>Mac-A5C67F76ED83108C</string>
+		<string>Mac-B809C3757DA9BB8D</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02640902GUHCF9JC</string>
+		<string>C02724101GUGPF7FB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>263.0.0.0.0</string>
+		<string>174.0.0.0.0</string>
 		<key>Family</key>
-		<string>MacBook Pro</string>
+		<string>iMac17,1</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE17E</string>
+		<string>0xFC0FE176</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF7F</string>
 		<key>LocationInChassis</key>
@@ -726,17 +726,17 @@
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
-		<true/>
+		<false/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x00</string>
 		<key>ProductName</key>
-		<string>MacBookPro13,3</string>
+		<string>iMac17,1</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
 		<key>SerialNumber</key>
-		<string>C02SH0A0GTFN</string>
+		<string>C02TVTZLGG7L</string>
 		<key>SmUUID</key>
-		<string>9D5DE00C-4A7A-40D6-B3D9-1660624F32BD</string>
+		<string>E488E260-142A-4B94-89AC-4E05E6954E1C</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
